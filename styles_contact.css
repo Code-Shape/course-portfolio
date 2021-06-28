@@ -1,0 +1,80 @@
+body {
+    width: 100%;
+    background: #242424;
+}
+
+.title_section {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.title h1 {
+    text-align: center;
+    background: -webkit-linear-gradient(45deg, #30C6B3, #2D86C2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-family: roboto slab;
+    font-weight: 900;
+    font-size: 5em;
+}
+
+.title p {
+    text-align: center;
+    color: #fff;
+    font-family: roboto slab;
+}
+
+label {
+    color: #fff;
+    font-family: roboto slab;
+    font-weight: 600;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px 30px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: #2D86C2;
+  }
+
+  input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px 30px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: #2D86C2; 
+  }
+  
+  input[type=submit] {
+    background-color: #2D86C2;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: roboto slab;
+    font-weight: 600;
+    font-size: 1.5em;
+
+  }
+  
+  input[type=submit]:hover {
+    background-color: #30C6B3;
+  }
+  
+  .form_container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }

@@ -1,0 +1,87 @@
+body {
+    width: 100%;
+    background: #242424;
+}
+
+.hero_section {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-image: url("img/fractal_pillars.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 10rem;
+}
+
+.hero_section h1 {
+    text-align: center;
+    background: -webkit-linear-gradient(45deg, #30C6B3, #2D86C2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-family: roboto slab;
+    font-weight: 900;
+    font-size: 5em;
+}
+
+.hero_section h2 {
+    text-align: center;
+    color: #fff;
+    font-family: roboto slab;
+    font-weight: 900;
+    font-size: 3em;
+}
+
+.hero_buttons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-items: center;
+    justify-items: center;
+    grid-gap: 2rem;
+}
+
+.hero_buttons a {
+    color: #2D86C2;
+    background: #fff;
+    padding: 1rem 2rem;
+    border: 2px solid #30C6B3;
+    border-radius: 30px;
+    font-size: 2em;
+    font-family: roboto slab;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+    width: 12rem;
+}
+
+.about_section {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.about_section h2 {
+    text-align: center;
+    color: #fff;
+    font-family: roboto slab;
+    font-weight: 900;
+    font-size: 3em;
+}
+
+.description_box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: center;
+    justify-items: center;
+    grid-gap: 2rem;
+}
+
+.description_box img {
+    width: 13rem;
+}
+
+.description_box p {
+    color: #707070;
+    width: 40rem;
+    font-size: 1.2em;
+    font-family: Segoe UI;
+}

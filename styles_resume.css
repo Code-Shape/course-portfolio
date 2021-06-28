@@ -1,0 +1,220 @@
+body {
+    width: 100%;
+    background: #242424;
+}
+
+.title_section {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.title h1 {
+    text-align: center;
+    background: -webkit-linear-gradient(45deg, #30C6B3, #2D86C2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-family: roboto slab;
+    font-weight: 900;
+    font-size: 5em;
+}
+
+.card_section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-rows: auto auto;
+  justify-items: center;
+  grid-gap: 3rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.info_card {
+  display: grid;
+  justify-items: center;
+  grid-gap: 1rem;
+  background: rgba(48, 198, 179, .1);
+  border: 1px solid #fff;
+  border-radius: 30px;
+  width: 25rem;
+  height: 35rem;
+}
+
+.info_card h3 {
+  font-size: 2em;
+  font-family: roboto slab;
+  color: #2D86C2;
+}
+
+.resume_logo {
+  width: 7rem;
+}
+
+.info_card_body {
+  color: #fff;
+  font-family: roboto slab;
+  font-weight: 500;
+}
+
+.profile_card {
+  display: grid;
+  justify-items: center;
+  background: rgba(48, 198, 179, .1);
+  border: 1px solid #fff;
+  border-radius: 30px;
+  width: 25rem;
+  height: 35rem;
+}
+
+.profile_card h3 {
+  font-size: 2em;
+  font-family: roboto slab;
+  color: #2D86C2;
+}
+
+.profile_card p {
+  color: #fff;
+  font-family: roboto slab;
+  font-weight: 500;
+  text-align: center;
+  padding: 2rem;
+  line-height: 2em;
+}
+
+.portfolio_card {
+  display: grid;
+  justify-items: center;
+  background: rgba(48, 198, 179, .1);
+  border: 1px solid #fff;
+  border-radius: 30px;
+  width: 25rem;
+  height: 35rem;
+}
+
+.portfolio_card h3 {
+  font-size: 2em;
+  font-family: roboto slab;
+  color: #2D86C2;
+}
+
+.portfolio_links {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+  align-items: center;
+  grid-gap: 1rem;
+}
+
+.portfolio_links img {
+  width: 10rem;
+}
+
+.skills_card {
+  display: grid;
+  justify-items: center;
+  background: rgba(48, 198, 179, .1);
+  border: 1px solid #fff;
+  border-radius: 30px;
+  width: 25rem;
+  height: 35rem;
+}
+
+.skills_card h3 {
+  font-size: 2em;
+  font-family: roboto slab;
+  color: #2D86C2;
+}
+
+.skills_card li {
+  color: #fff;
+  font-family: roboto slab;
+  font-weight: 500;
+}
+
+.career_card {
+  display: grid;
+  justify-items: center;
+  background: rgba(48, 198, 179, .1);
+  border: 1px solid #fff;
+  border-radius: 30px;
+  width: 25rem;
+  height: 35rem;
+}
+
+.career_card h3 {
+  font-size: 2em;
+  font-family: roboto slab;
+  color: #2D86C2;
+  margin-bottom: -1.5rem;
+}
+
+.job {
+  padding: 0 2rem;
+}
+
+.job h4 {
+  font-size: 1.5em;
+  font-family: roboto slab;
+  color: #2D86C2;
+  margin-bottom: -.5rem;
+}
+
+.job p {
+  color: #fff;
+  font-family: roboto slab;
+  font-weight: 500;
+}
+
+.education_card {
+  display: grid;
+  justify-items: center;
+  background: rgba(48, 198, 179, .1);
+  border: 1px solid #fff;
+  border-radius: 30px;
+  width: 25rem;
+  height: 35rem;
+}
+
+.education_card h3 {
+  font-size: 2em;
+  font-family: roboto slab;
+  color: #2D86C2;
+  margin-bottom: -1.5rem;
+}
+
+.school {
+  padding: 0 2rem;
+}
+
+.school h4 {
+  font-size: 1.5em;
+  font-family: roboto slab;
+  color: #2D86C2;
+  margin-bottom: -.5rem;
+}
+
+.school p {
+  color: #fff;
+  font-family: roboto slab;
+  font-weight: 500;
+}
+
+.download_resume {
+  width: 9rem;
+  background: #fff;
+  border: 2px solid #30C6B3;
+  border-radius: 30px;
+}
+
+.download_resume a {
+  display: block;
+  width: 9rem;
+  color: #2D86C2;
+  padding: 1rem 2rem;
+  font-size: 2em;
+  font-family: roboto slab;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: none;
+}

@@ -1,104 +1,105 @@
 body {
-    width: 100%;
-    background: #242424;
+  width: 100%;
+  background: #242424;
 }
 
 .hero_section {
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    background-image: url("img/fractal_pillars.png");
-    background-repeat: no-repeat;
-    background-position: left;
-    margin-bottom: 10rem;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-image: url("img/fractal_pillars.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-bottom: 10rem;
 }
 
 .hero_section h1 {
-    text-align: center;
-    background: -webkit-linear-gradient(45deg, #30C6B3, #2D86C2);
+  text-align: center;
+  background: -webkit-linear-gradient(45deg, #30c6b3, #2d86c2);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-    font-family: roboto slab;
-    font-weight: 900;
-    font-size: 5em;
+  font-family: roboto slab;
+  font-weight: 900;
+  font-size: 5em;
 }
 
 .hero_section h2 {
-    text-align: center;
-    color: #fff;
-    font-family: roboto slab;
-    font-weight: 900;
-    font-size: 3em;
+  text-align: center;
+  color: #fff;
+  font-family: roboto slab;
+  font-weight: 900;
+  font-size: 3em;
 }
 
 @media only screen and (min-width: 768px) {
-.hero_buttons {
+  .hero_buttons {
     display: flex;
     gap: 2rem;
-}
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .hero_buttons {
-        display: grid;
-        grid-gap: 2rem;
-    }
+  .hero_buttons {
+    display: grid;
+    grid-gap: 2rem;
+  }
 }
 
 .hero_buttons a {
-    color: #2D86C2;
-    background: #fff;
-    padding: 1rem 2rem;
-    border: 2px solid #30C6B3;
-    border-radius: 30px;
-    font-size: 2em;
-    font-family: roboto slab;
-    font-weight: 900;
-    text-align: center;
-    text-decoration: none;
-    width: 12rem;
+  color: #2d86c2;
+  background: #fff;
+  padding: 1rem 2rem;
+  border: 2px solid #30c6b3;
+  border-radius: 30px;
+  font-size: 2em;
+  font-family: roboto slab;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: none;
+  width: 12rem;
 }
 
 .about_section {
-    display: grid;
-    justify-items: center;
-    align-items: center;
+  display: grid;
+  justify-items: center;
+  align-items: center;
 }
 
 .about_section h2 {
-    text-align: center;
-    color: #fff;
-    font-family: roboto slab;
-    font-weight: 900;
-    font-size: 3em;
-    margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  font-family: roboto slab;
+  font-weight: 900;
+  font-size: 3em;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 950px) {
-    .description_box {
-        display: flex;
-        gap: 2rem;
-    }
+  .description_box {
+    display: flex;
+    gap: 2rem;
+  }
 }
 
 @media only screen and (max-width: 950px) {
-.description_box {
+  .description_box {
     display: grid;
     align-items: center;
     justify-items: center;
     grid-gap: 2rem;
-}
+  }
 }
 
 .description_box img {
-    width: 13rem;
-    padding: 0 2rem;
+  width: 13rem;
+  padding: 0 2rem;
 }
 
 .description_box p {
-    color: #707070;
-    max-width: 40rem;
-    font-size: 1.2em;
-    font-family: Segoe UI;
-    padding: 0 2rem;
+  color: #707070;
+  max-width: 40rem;
+  font-size: 1.2em;
+  font-family: Segoe UI;
+  padding: 0 2rem;
 }

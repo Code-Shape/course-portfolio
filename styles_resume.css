@@ -1,6 +1,6 @@
 body {
-    width: 100%;
-    background: #242424;
+  width: 100%;
+  background: #242424;
 }
 
 .title_section {
@@ -11,13 +11,14 @@ body {
 }
 
 .title h1 {
-    text-align: center;
-    background: -webkit-linear-gradient(45deg, #30C6B3, #2D86C2);
+  text-align: center;
+  background: -webkit-linear-gradient(45deg, #30c6b3, #2d86c2);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-    font-family: roboto slab;
-    font-weight: 900;
-    font-size: 5em;
+  font-family: roboto slab;
+  font-weight: 900;
+  font-size: 5em;
 }
 
 .card_section {
@@ -34,7 +35,7 @@ body {
   display: grid;
   justify-items: center;
   grid-gap: 1rem;
-  background: rgba(48, 198, 179, .1);
+  background: rgba(48, 198, 179, 0.1);
   border: 1px solid #fff;
   border-radius: 30px;
   width: 25rem;
@@ -44,7 +45,7 @@ body {
 .info_card h3 {
   font-size: 2em;
   font-family: roboto slab;
-  color: #2D86C2;
+  color: #2d86c2;
 }
 
 .resume_logo {
@@ -61,7 +62,7 @@ body {
 .profile_card {
   display: grid;
   justify-items: center;
-  background: rgba(48, 198, 179, .1);
+  background: rgba(48, 198, 179, 0.1);
   border: 1px solid #fff;
   border-radius: 30px;
   width: 25rem;
@@ -71,7 +72,7 @@ body {
 .profile_card h3 {
   font-size: 2em;
   font-family: roboto slab;
-  color: #2D86C2;
+  color: #2d86c2;
 }
 
 .profile_card p {
@@ -85,7 +86,7 @@ body {
 .portfolio_card {
   display: grid;
   justify-items: center;
-  background: rgba(48, 198, 179, .1);
+  background: rgba(48, 198, 179, 0.1);
   border: 1px solid #fff;
   border-radius: 30px;
   width: 25rem;
@@ -95,7 +96,7 @@ body {
 .portfolio_card h3 {
   font-size: 2em;
   font-family: roboto slab;
-  color: #2D86C2;
+  color: #2d86c2;
 }
 
 .portfolio_links {
@@ -113,7 +114,7 @@ body {
 .skills_card {
   display: grid;
   justify-items: center;
-  background: rgba(48, 198, 179, .1);
+  background: rgba(48, 198, 179, 0.1);
   border: 1px solid #fff;
   border-radius: 30px;
   width: 25rem;
@@ -123,7 +124,7 @@ body {
 .skills_card h3 {
   font-size: 2em;
   font-family: roboto slab;
-  color: #2D86C2;
+  color: #2d86c2;
 }
 
 .skills_card li {
@@ -136,7 +137,7 @@ body {
 .career_card {
   display: grid;
   justify-items: center;
-  background: rgba(48, 198, 179, .1);
+  background: rgba(48, 198, 179, 0.1);
   border: 1px solid #fff;
   border-radius: 30px;
   width: 25rem;
@@ -146,7 +147,7 @@ body {
 .career_card h3 {
   font-size: 2em;
   font-family: roboto slab;
-  color: #2D86C2;
+  color: #2d86c2;
   margin-bottom: -1.5rem;
 }
 
@@ -157,8 +158,8 @@ body {
 .job h4 {
   font-size: 1.5em;
   font-family: roboto slab;
-  color: #2D86C2;
-  margin-bottom: -.5rem;
+  color: #2d86c2;
+  margin-bottom: -0.5rem;
 }
 
 .job p {
@@ -170,7 +171,7 @@ body {
 .education_card {
   display: grid;
   justify-items: center;
-  background: rgba(48, 198, 179, .1);
+  background: rgba(48, 198, 179, 0.1);
   border: 1px solid #fff;
   border-radius: 30px;
   width: 25rem;
@@ -180,7 +181,7 @@ body {
 .education_card h3 {
   font-size: 2em;
   font-family: roboto slab;
-  color: #2D86C2;
+  color: #2d86c2;
   margin-bottom: -1.5rem;
 }
 
@@ -191,8 +192,8 @@ body {
 .school h4 {
   font-size: 1.5em;
   font-family: roboto slab;
-  color: #2D86C2;
-  margin-bottom: -.5rem;
+  color: #2d86c2;
+  margin-bottom: -0.5rem;
 }
 
 .school p {
@@ -211,9 +212,9 @@ body {
   display: grid;
   width: 9rem;
   background: #fff;
-  border: 2px solid #30C6B3;
+  border: 2px solid #30c6b3;
   border-radius: 30px;
-  color: #2D86C2;
+  color: #2d86c2;
   padding: 1rem 2rem;
   font-size: 2em;
   font-family: roboto slab;

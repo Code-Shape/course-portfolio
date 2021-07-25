@@ -21,8 +21,6 @@ body {
 
 .featured_work {
     margin: 0 auto;
-    margin-bottom: 10rem;
-    margin-bottom: 2rem;
 }
 
 .featured_work h2 {
@@ -39,6 +37,12 @@ body {
     align-items: center;
     justify-items: center;
     grid-gap: 2rem;
+}
+
+@media only screen and (max-width: 900px) {
+    .featured_container {
+        grid-template-columns: auto;
+    }
 }
 
 .main_feature {
@@ -120,6 +124,12 @@ body {
     align-items: center;
     justify-items: center;
     grid-gap: 2rem;
+}
+
+@media only screen and (max-width: 900px) {
+    .categories_container {
+        grid-template-columns: auto;
+    }
 }
 
 .main_category {

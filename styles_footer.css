@@ -9,16 +9,10 @@
     overflow: hidden;
     padding: 20px 10px;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto;
     align-items: center;
     max-width: 1400px;
     margin: 0 auto;
-}
-
-@media screen and (max-width: 600px) {
-    .footer {
-        grid-template-columns: auto;
-    }
 }
 
 .footer a:hover {
@@ -27,14 +21,8 @@
 }
 
 .start_pillar {
-    justify-self: start;
+    justify-self: center;
     align-self: center;
-}
-
-@media screen and (max-width: 600px) {
-    .start_pillar {
-        margin: 0 auto;
-    }
 }
 
 .center_pillar {
@@ -57,7 +45,8 @@
 .end_pillar {
     display: grid;
     color: #707070;
-    justify-self: end;
+    text-align: center;
+    justify-self: center;
     padding: 12px;
     text-decoration: none;
     font-size: 18px;
@@ -66,15 +55,9 @@
     margin: 4px;
 }
 
-@media screen and (max-width: 600px) {
-    .end_pillar {
-        margin: 0 auto;
-    }
-}
-
 .footer_some {
-    padding-top: 12px;
-    margin-left: -12px;  
+    padding: 12px;
+    margin: 0 auto;  
 }
     
 .fa {

@@ -1,6 +1,7 @@
 body {
   width: 100%;
   background: #242424;
+  max-width: 48rem;
 }
 
 .title_section {

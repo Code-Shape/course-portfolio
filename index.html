@@ -4,16 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles_home.css" />
-    <link rel="stylesheet" href="styles_header.css" />
-    <link rel="stylesheet" href="styles_footer.css" />
+    <link rel="stylesheet" href="/layout/styles.home.css" />
+    <link rel="stylesheet" href="/layout/styles.header.css" />
+    <link rel="stylesheet" href="/layout/styles.footer.css" />
+    <link rel="stylesheet" href="/layout/styles.container.css" />
     <!-- Add icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Home</title>
   </head>
   <body>
     <!-- Header -->
-    <div class="header">
+    <div class="header container">
       <a href="/" class="logo">
         <img class="logoImage" src="img/logo_blue_v001.png" />
       </a>
@@ -24,14 +28,26 @@
         <a href="/contact.html">Contact</a>
       </div>
       <div class="header_some">
-        <a href="https://twitter.com/codeshapeio" target="_blank" class="fa fa-twitter" ></a>
-        <a href="https://www.facebook.com/codeshapeio" target="_blank" class="fa fa-facebook"></a>
-        <a href="https://www.instagram.com/codeshapeio/" target="_blank" class="fa fa-instagram"></a>
+        <a
+          href="https://twitter.com/codeshapeio"
+          target="_blank"
+          class="fa fa-twitter"
+        ></a>
+        <a
+          href="https://www.facebook.com/codeshapeio"
+          target="_blank"
+          class="fa fa-facebook"
+        ></a>
+        <a
+          href="https://www.instagram.com/codeshapeio/"
+          target="_blank"
+          class="fa fa-instagram"
+        ></a>
       </div>
     </div>
     <div class="line"></div>
-    <!-- Main -->
-    <div class="hero_section">
+    <!-- Hero -->
+    <div class="hero_section container">
       <div>
         <h1>Andreas</h1>
         <h2>Web Designer</h2>
@@ -41,24 +57,29 @@
         <a href="/resume.html">See my CV here</a>
       </div>
     </div>
-    <div class="about_section">
-      <h2>About me</h2>
-      <div class="description_box">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <img src="img\logo_blue_v001.png" alt="image/logo" />
+    <!-- About section -->
+    <figure class="aboutContainer">
+      <img src="/img/andreas.png" alt="" class="aboutContainerImage" />
+      <div class="aboutDescription">
+        <blockquote>
+          <p>
+            "As a graphic designer, I never thought I would be doing anything
+            with code. Today I am combining visuals and code in all the work I
+            do - and I want to help break down the barriers between graphics and
+            coding - whether you are a coder or a programmer knowing some basics
+            about the workflow and being able to use it in your work can take
+            you to new heights."”
+          </p>
+        </blockquote>
+        <figcaption class="aboutCaption">
+          <div class="aboutCaptionName">Andreas</div>
+          <div class="aboutCaptionTitle">Designer at Code Shape</div>
+        </figcaption>
       </div>
-    </div>
+    </figure>
     <!-- Footer -->
-    <div class="footer_line"></div>
-    <div class="footer">
+    <div class="footer container">
+      <div class="footer_line"></div>
       <div class="start_pillar">
         <a href="/" class="logo_footer">
           <img class="logoImage" src="img/logo_blue_v001.png" />
@@ -71,9 +92,21 @@
       </div>
       <div class="end_pillar">
         <div class="footer_some">
-          <a href="https://twitter.com/codeshapeio" target="_blank" class="fa fa-twitter" ></a>
-          <a href="https://www.facebook.com/codeshapeio" target="_blank" class="fa fa-facebook"></a>
-          <a href="https://www.instagram.com/codeshapeio/" target="_blank" class="fa fa-instagram"></a>
+          <a
+            href="https://twitter.com/codeshapeio"
+            target="_blank"
+            class="fa fa-twitter"
+          ></a>
+          <a
+            href="https://www.facebook.com/codeshapeio"
+            target="_blank"
+            class="fa fa-facebook"
+          ></a>
+          <a
+            href="https://www.instagram.com/codeshapeio/"
+            target="_blank"
+            class="fa fa-instagram"
+          ></a>
         </div>
         <!-- <p>Phone: +XX XXX XXXX XX</p>
         <p>Email: xxxxxxxxxx@xxxxxxxx.xx</p> -->

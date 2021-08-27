@@ -1,5 +1,4 @@
 body {
-  width: 100%;
   background: #242424;
 }
 
@@ -60,46 +59,60 @@ body {
   width: 12rem;
 }
 
-.about_section {
-  display: grid;
-  justify-items: center;
-  align-items: center;
-}
+.aboutContainer {
+  --tw-bg-opacity: 1;
+  background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+  border-radius: 0.75rem;
+  padding: 2rem;
 
-.about_section h2 {
-  text-align: center;
-  color: #fff;
-  font-family: roboto slab;
-  font-weight: 900;
-  font-size: 3em;
-  margin: 0 auto;
-}
-
-@media only screen and (min-width: 950px) {
-  .description_box {
+  @media (min-width: 768px) {
     display: flex;
-    gap: 2rem;
+    padding: 0;
   }
 }
 
-@media only screen and (max-width: 950px) {
-  .description_box {
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    grid-gap: 2rem;
+.aboutContainerImage {
+  margin-left: auto;
+  margin-right: auto;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 9999px;
+
+  @media (min-width: 768px) {
+    width: 12rem;
+    height: auto;
   }
 }
 
-.description_box img {
-  width: 13rem;
-  padding: 0 2rem;
+.aboutDescription {
+  padding-top: 1.5rem;
+  text-align: center;
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+
+  @media (min-width: 768px) {
+    padding: 2rem;
+    text-align: left;
+  }
 }
 
-.description_box p {
-  color: #707070;
-  max-width: 40rem;
-  font-size: 1.2em;
-  font-family: Segoe UI;
-  padding: 0 2rem;
+.aboutDescription p {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+.aboutCaption {
+  font-weight: 500;
+}
+
+.aboutCaptionName {
+  --tw-text-opacity: 1;
+  color: rgba(52, 211, 153, var(--tw-text-opacity));
+}
+
+.aboutCaptionTitle {
+  --tw-text-opacity: 1;
+  color: rgba(107, 114, 128, var(--tw-text-opacity));
 }

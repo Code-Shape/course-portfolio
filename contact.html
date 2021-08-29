@@ -47,42 +47,94 @@
       </div>
     </div>
     <div class="line"></div>
+
     <!-- Main -->
-    <div class="title_section container">
-      <div class="title">
-        <h1>Contact</h1>
-        <p>Contact me for more information.</p>
+    <main class="container-md">
+      <!-- Title -->
+      <div class="title-section">
+        <div>
+          <h1>Contact</h1>
+          <p>I've always up for a good chat and a coffee.</p>
+        </div>
       </div>
-    </div>
-    <main class="container">
-      <div class="form_container">
-        <form action="action_page.php">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" placeholder="Name.." />
-
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" placeholder="Email.." />
-
-          <label for="phone">Phone</label>
-          <input
-            type="text"
-            id="phone"
-            name="phone"
-            placeholder="Phone number.."
-          />
-
-          <label for="subject">Subject</label>
-          <textarea
-            id="subject"
-            name="subject"
-            placeholder="Write something.."
-            style="height: 200px"
-          ></textarea>
-
-          <input type="submit" value="Submit" />
+      <div class="form-container">
+        <form
+          action="https://getform.io/f/65526fdb-191e-4f59-9143-6ffeb450f0b2"
+          method="POST"
+        >
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Enter your first name"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="lname"
+                name="lastname"
+                placeholder="Enter your last name"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="phone">Phone no.</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="phone"
+                name="phone"
+                placeholder="Enter your phone no."
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="email">Email Address</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                name="email"
+                id="email"
+                name="lastname"
+                placeholder="Enter your email address"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Subject</label>
+            </div>
+            <div class="col-75">
+              <textarea
+                id="subject"
+                name="subject"
+                placeholder="Tell me how I can help you."
+                style="height: 200px"
+              ></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit" />
+          </div>
         </form>
       </div>
     </main>
+
     <!-- Footer -->
     <footer>
       <div class="footer-container">
@@ -118,12 +170,10 @@
               class="txtb"
               placeholder="Enter your Email"
             />
-            <input type="submit" class="btn" />
+            <button type="submit" class="btn">Subscribe</button>
           </form>
         </div>
       </div>
     </footer>
   </body>
 </html>
-
-<!-- Getform.io - let customer use this -->

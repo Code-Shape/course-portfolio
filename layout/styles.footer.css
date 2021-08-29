@@ -7,6 +7,7 @@ footer {
     rgba(2, 0, 36, 1) 100%
   );
   padding: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .footer-container {
@@ -78,7 +79,7 @@ footer {
   border: none;
   font-weight: 700;
   outline: none;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 .btn {
@@ -90,7 +91,7 @@ footer {
   border: none;
   font-weight: 700;
   outline: none;
-  border-radius: 20px;
+  border-radius: 15px;
   cursor: pointer;
   transition: opacity 0.3s linear;
 }
@@ -120,7 +121,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   .btn {
     margin: 0;
     width: 100%;

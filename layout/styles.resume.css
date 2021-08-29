@@ -1,7 +1,6 @@
 body {
   width: 100%;
-  font-family: "PT Sans Caption", "Helvetica Neue", Arial, Helvetica, Geneva,
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   background-color: #000;
   margin: 0;
 }

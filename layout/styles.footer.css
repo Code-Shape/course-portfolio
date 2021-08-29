@@ -1,5 +1,11 @@
 footer {
-  background: #2c2c2c;
+  background: rgb(48, 199, 176);
+  background: linear-gradient(
+    0deg,
+    rgba(48, 199, 176, 1) 0%,
+    rgba(45, 125, 191, 1) 66%,
+    rgba(2, 0, 36, 1) 100%
+  );
   padding: 30px;
 }
 
@@ -34,8 +40,7 @@ footer {
 }
 
 .rights-text {
-  color: #888;
-  font-family: lato;
+  color: #fff;
 }
 
 /* Rigth */
@@ -52,7 +57,7 @@ footer {
 .border {
   width: 100px;
   height: 4px;
-  background: #2c78ab;
+  background: #fff;
 }
 
 .newsletter-form {

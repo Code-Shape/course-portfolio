@@ -15,11 +15,11 @@
     />
     <title>Home</title>
   </head>
-  <body class="container">
+  <body>
     <!-- Header -->
-    <div class="header">
+    <div class="header container">
       <a href="/" class="logo">
-        <img class="logoImage" src="img/logo_blue_v001.png" />
+        <img class="logoImage" src="img/logo.png" />
       </a>
       <div class="header-right">
         <a class="active" href="/">Home</a>
@@ -47,7 +47,7 @@
     </div>
     <div class="line"></div>
     <!-- Hero -->
-    <div class="hero_section">
+    <div class="hero_section container">
       <div>
         <h1>Andreas</h1>
         <h2>Web Designer</h2>
@@ -58,9 +58,9 @@
       </div>
     </div>
     <!-- About section -->
-    <figure class="aboutContainer">
-      <img src="/img/andreas.png" alt="" class="aboutContainerImage" />
-      <div class="aboutDescription">
+    <figure class="about-container container">
+      <img src="/img/andreas.png" alt="" class="about-container-image" />
+      <div class="about-description">
         <blockquote>
           <p>
             "As a graphic designer, I never thought I would be doing anything
@@ -71,46 +71,53 @@
             you to new heights."
           </p>
         </blockquote>
-        <figcaption class="aboutCaption">
-          <div class="aboutCaptionName">Andreas</div>
-          <div class="aboutCaptionTitle">Designer</div>
+        <figcaption class="about-caption">
+          <div class="about-caption-name">Andreas</div>
+          <div class="about-caption-title">Designer</div>
         </figcaption>
       </div>
     </figure>
     <!-- Footer -->
-    <div class="footer">
-      <div class="footer_line"></div>
-      <div class="start_pillar">
-        <a href="/" class="logo_footer">
-          <img class="logoImage" src="img/logo_blue_v001.png" />
-        </a>
-      </div>
-      <div class="center_pillar">
-        <a href="/portfolio.html">Portfolio</a>
-        <a href="/resume.html">Resume</a>
-        <a href="/contact.html">Contact</a>
-      </div>
-      <div class="end_pillar">
-        <div class="footer_some">
-          <a
-            href="https://twitter.com/codeshapeio"
-            target="_blank"
-            class="fa fa-twitter"
-          ></a>
-          <a
-            href="https://www.facebook.com/codeshapeio"
-            target="_blank"
-            class="fa fa-facebook"
-          ></a>
-          <a
-            href="https://www.instagram.com/codeshapeio/"
-            target="_blank"
-            class="fa fa-instagram"
-          ></a>
+    <footer>
+      <div class="footer-container">
+        <div class="left-col">
+          <img src="/img/logo.png" alt="logo" class="logo" />
+          <div class="social-media">
+            <a
+              href="https://twitter.com/codeshapeio"
+              target="_blank"
+              class="fa fa-twitter"
+            ></a></a>
+            <a
+              href="https://www.facebook.com/codeshapeio"
+              target="_blank"
+              class="fa fa-facebook"
+            ></a>
+            <a
+              href="https://www.instagram.com/codeshapeio/"
+              target="_blank"
+              class="fa fa-instagram"
+            ></a>
+          </div>
+          <p class="rights-text">
+            &copy; 2021 Created by Andreas All Rights Reserved
+          </p>
         </div>
-        <!-- <p>Phone: +XX XXX XXXX XX</p>
-        <p>Email: xxxxxxxxxx@xxxxxxxx.xx</p> -->
+        <div class="right-col">
+          <h1>Subscripe to my Newsletter</h1>
+          <div class="border"></div>
+          <p>Enter your email to get the latest news and updates.</p>
+          <form action="" class="newsletter-form">
+            <input
+              type="email"
+              name=""
+              class="txtb"
+              placeholder="Enter your Email"
+            />
+            <input type="submit" class="btn" value="submit" name="" />
+          </form>
+        </div>
       </div>
-    </div>
+    </footer>
   </body>
 </html>

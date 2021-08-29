@@ -15,11 +15,11 @@
     />
     <title>Contact</title>
   </head>
-  <body class="container">
+  <body>
     <!-- Header -->
-    <div class="header">
+    <div class="header container">
       <a href="/" class="logo">
-        <img class="logoImage" src="img/logo_blue_v001.png" />
+        <img class="logoImage" src="img/logo.png" />
       </a>
       <div class="header-right">
         <a href="/">Home</a>
@@ -47,74 +47,67 @@
     </div>
     <div class="line"></div>
     <!-- Main -->
-    <div class="title_section">
+    <div class="title_section container">
       <div class="title">
         <h1>Contact</h1>
         <p>Contact me for more information.</p>
       </div>
     </div>
-    <div class="form_container">
-      <form action="action_page.php">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="Name.." />
+    <main class="container">
+      <div class="form_container">
+        <form action="action_page.php">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Name.." />
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="Email.." />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Email.." />
 
-        <label for="phone">Phone</label>
-        <input
-          type="text"
-          id="phone"
-          name="phone"
-          placeholder="Phone number.."
-        />
+          <label for="phone">Phone</label>
+          <input
+            type="text"
+            id="phone"
+            name="phone"
+            placeholder="Phone number.."
+          />
 
-        <label for="subject">Subject</label>
-        <textarea
-          id="subject"
-          name="subject"
-          placeholder="Write something.."
-          style="height: 200px"
-        ></textarea>
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 200px"
+          ></textarea>
 
-        <input type="submit" value="Submit" />
-      </form>
-    </div>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </main>
     <!-- Footer -->
-    <div class="footer_line"></div>
-    <div class="footer">
-      <div class="start_pillar">
-        <a href="/" class="logo_footer">
-          <img class="logoImage" src="img/logo_blue_v001.png" />
-        </a>
-      </div>
-      <div class="center_pillar">
-        <a href="/portfolio.html">Portfolio</a>
-        <a href="/resume.html">Resume</a>
-        <a href="/contact.html">Contact</a>
-      </div>
-      <div class="end_pillar">
-        <div class="footer_some">
-          <a
-            href="https://twitter.com/codeshapeio"
-            target="_blank"
-            class="fa fa-twitter"
-          ></a>
-          <a
-            href="https://www.facebook.com/codeshapeio"
-            target="_blank"
-            class="fa fa-facebook"
-          ></a>
-          <a
-            href="https://www.instagram.com/codeshapeio/"
-            target="_blank"
-            class="fa fa-instagram"
-          ></a>
+    <footer>
+      <div class="footer-container">
+        <div class="left-col">
+          <img src="/img/logo.png" alt="logo" class="logo" />
+          <div class="social-media"></div>
+          <p class="rights-text">
+            &copy; 2021 Created by Andreas All Rights Reserved
+          </p>
         </div>
-        <!-- <p>Phone: +XX XXX XXXX XX</p>
-        <p>Email: xxxxxxxxxx@xxxxxxxx.xx</p> -->
+        <div class="right-col">
+          <h1>Subscripe to my Newsletter</h1>
+          <div class="border"></div>
+          <p>Enter your email to get the latest news and updates.</p>
+          <form action="" class="newsletter-form">
+            <input
+              type="email"
+              name=""
+              class="txtb"
+              placeholder="Enter your Email"
+            />
+            <input type="submit" class="btn" value="submit" name="" />
+          </form>
+        </div>
       </div>
-    </div>
+    </footer>
   </body>
 </html>
 

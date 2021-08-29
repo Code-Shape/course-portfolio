@@ -1,5 +1,6 @@
 body {
-  background: #242424;
+  background: black;
+  font-family: "Open-sans", sans-serif;
 }
 
 .hero_section {
@@ -59,7 +60,7 @@ body {
   width: 12rem;
 }
 
-.aboutContainer {
+.about-container {
   --tw-bg-opacity: 1;
   background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
   border-radius: 0.75rem;
@@ -71,7 +72,7 @@ body {
   }
 }
 
-.aboutContainerImage {
+.about-container-image {
   margin-left: auto;
   margin-right: auto;
   width: 8rem;
@@ -84,7 +85,7 @@ body {
   }
 }
 
-.aboutDescription {
+.about-description {
   padding-top: 1.5rem;
   text-align: center;
   --tw-space-y-reverse: 0;
@@ -97,22 +98,22 @@ body {
   }
 }
 
-.aboutDescription p {
+.about-description p {
   font-size: 1.125rem;
   line-height: 1.75rem;
   font-weight: 600;
 }
 
-.aboutCaption {
+.about-caption {
   font-weight: 500;
 }
 
-.aboutCaptionName {
+.about-caption-name {
   --tw-text-opacity: 1;
   color: rgba(52, 211, 153, var(--tw-text-opacity));
 }
 
-.aboutCaptionTitle {
+.about-caption-title {
   --tw-text-opacity: 1;
   color: rgba(107, 114, 128, var(--tw-text-opacity));
 }

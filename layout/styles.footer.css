@@ -23,7 +23,7 @@ footer {
 
 .social-media a {
   color: #fff;
-  margin-right: 25px;
+  padding-right: 25px;
   font-size: 22px;
   text-decoration: none;
   transition: 0.3s linear;
@@ -107,6 +107,11 @@ footer {
   .left-col {
     width: 100%;
     text-align: center;
+  }
+
+  .social-media a {
+    padding-right: 0;
+    padding: 20px;
   }
 }
 

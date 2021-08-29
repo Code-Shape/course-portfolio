@@ -1,63 +1,87 @@
 body {
-  background: black;
-  font-family: "Open-sans", sans-serif;
+  font-family: "PT Sans Caption", "Helvetica Neue", Arial, Helvetica, Geneva,
+    sans-serif;
+  background-color: #000;
 }
 
-.hero_section {
+.hero {
   display: grid;
-  justify-items: center;
-  align-items: center;
-  background-image: url("img/fractal_pillars.png");
-  background-repeat: no-repeat;
-  background-position: left;
-  margin-bottom: 10rem;
+  height: 50vh;
+  padding: 1rem;
+  box-sizing: border-box;
+  color: white;
+  background: url(/img/fractal_pillars.png) center center no-repeat;
+  background-size: cover;
 }
 
-.hero_section h1 {
-  text-align: center;
-  background: -webkit-linear-gradient(45deg, #30c6b3, #2d86c2);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: roboto slab;
-  font-weight: 900;
-  font-size: 5em;
+.hero-title {
+  font-size: 8vh;
+  font-weight: bold;
+  line-height: 0.9;
 }
 
-.hero_section h2 {
-  text-align: center;
-  color: #fff;
-  font-family: roboto slab;
-  font-weight: 900;
-  font-size: 3em;
+.hero-subtitle {
+  margin: 0;
+  font-size: 4vh;
+  font-weight: bold;
+  line-height: 0.9;
+  top: -60px;
+  position: relative;
 }
 
-@media only screen and (min-width: 768px) {
-  .hero_buttons {
-    display: flex;
-    gap: 2rem;
+@media only screen and (min-width: 32rem) {
+}
+
+@media only screen and (min-width: 48rem) {
+  .hero {
+    height: 75vh;
+  }
+
+  .hero-title {
+    font-size: 16vh;
+  }
+
+  .hero-subtitle {
+    top: -100px;
+  }
+
+  .button {
+    padding: 1rem 2rem;
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .hero_buttons {
-    display: grid;
-    grid-gap: 2rem;
-  }
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
 }
 
-.hero_buttons a {
-  color: #2d86c2;
-  background: #fff;
+.button {
   padding: 1rem 2rem;
-  border: 2px solid #30c6b3;
-  border-radius: 30px;
-  font-size: 2em;
-  font-family: roboto slab;
-  font-weight: 900;
-  text-align: center;
+  color: white;
   text-decoration: none;
-  width: 12rem;
+  border: 0.1em solid white;
+  border-radius: 0.8rem;
+  transition: background-color 0.2s linear;
+}
+
+.button-primary {
+  color: #000;
+  background-color: #fff;
+}
+
+.button-primary:hover {
+  color: #fff;
+  background-color: transparent;
+}
+
+.button-secondary {
+  color: #fff;
+  background-color: transparent;
+}
+
+.button-secondary:hover {
+  color: #000;
+  background-color: #fff;
 }
 
 .about-container {

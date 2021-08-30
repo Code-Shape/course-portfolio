@@ -9,6 +9,37 @@ body {
   box-sizing: border-box;
 }
 
+.title-section {
+  text-align: center;
+}
+
+.title-section h1 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.05em;
+  font-weight: 800;
+  color: #fff;
+}
+
+.title-section-one {
+  display: block;
+}
+
+.title-section-two {
+  display: block;
+  color: #2c78ab;
+}
+
+.title-section p {
+  margin-top: 0.75rem;
+  max-width: 28rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #fff;
+}
+
 .content-container {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -308,6 +339,32 @@ body {
 
   .cite-content-footer p {
     display: inline;
+  }
+}
+
+@media (min-width: 640px) {
+  .title-section h1 {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .title-section p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .title-section h1 {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .title-section p {
+    margin-top: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    max-width: 48rem;
   }
 }
 

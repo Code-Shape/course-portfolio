@@ -15,7 +15,7 @@
   text-decoration: none;
   font-size: 18px;
   line-height: 25px;
-  border-radius: 4px;
+  border-radius: 0.375rem;
   margin: 4px;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .header a.active {
-  background: -webkit-linear-gradient(45deg, #30c6b3, #2d86c2);
+  background: #2c78ab;
   color: white;
 }
 

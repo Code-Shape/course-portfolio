@@ -6,7 +6,7 @@ body {
 }
 
 .title-section {
-  display: flex;
+  display: grid;
   justify-items: center;
   align-items: center;
 }

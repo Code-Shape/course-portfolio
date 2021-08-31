@@ -1,7 +1,7 @@
 body {
   width: 100%;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  background-color: #000;
+  background-color: #121212;
   margin: 0;
 }
 
@@ -50,14 +50,11 @@ body {
 
 .portfolio-container-inner {
   position: relative;
-  max-width: 80rem;
   margin-left: auto;
   margin-right: auto;
 }
 
 .portfolio-card-container {
-  margin-top: 3rem;
-  max-width: 32rem;
   margin-left: auto;
   margin-right: auto;
   display: grid;
@@ -67,23 +64,27 @@ body {
 .portfolio-card {
   display: flex;
   flex-direction: column;
-  border-radius: 0.5rem;
-  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-    0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   overflow: hidden;
-  background: red;
-}
-
-.portfolio-card-image {
-  flex-shrink: 0;
 }
 
 .portfolio-card-image img {
-  height: 20rem;
   width: 100%;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.portfolio-card-title {
+  position: absolute;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  margin: 1rem;
+  backdrop-filter: blur(4px) saturate(180%);
+  -webkit-backdrop-filter: blur(4px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  color: #2c78ab;
 }
 
 /* @media queries */
@@ -119,10 +120,14 @@ body {
   }
 
   .portfolio-container {
-    padding-top: 6rem;
+    padding-top: 4rem;
     padding-bottom: 7rem;
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+  .portfolio-card-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: none;
   }
 }
 

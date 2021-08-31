@@ -106,11 +106,6 @@ body {
   padding: 1.875rem 2rem;
   max-width: 40rem;
   display: grid;
-
-  @media (min-width: 768px) {
-    padding: 0;
-    grid-template-columns: auto auto;
-  }
 }
 
 .about-container-image {
@@ -119,11 +114,6 @@ body {
   width: 8rem;
   height: 8rem;
   border-radius: 9999px;
-
-  @media (min-width: 768px) {
-    width: 12rem;
-    height: auto;
-  }
 }
 
 .about-description {
@@ -131,11 +121,6 @@ body {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
-
-  @media (min-width: 768px) {
-    padding: 2rem;
-    text-align: left;
-  }
 }
 
 .about-description p {

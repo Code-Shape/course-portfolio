@@ -122,13 +122,11 @@
   margin: 0;
   padding: 80px 0;
   list-style: none;
-  background: rgba(255, 255, 255, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-radius: 0 10px 10px 0;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(21, 21, 26, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
 
   transition-duration: 0.25s;
   z-index: 100;
@@ -145,7 +143,7 @@
   transition-duration: 0.25s;
 }
 .menu-item:hover {
-  background-color: #cfd8dc;
+  background-color: #303030;
 }
 
 @media screen and (max-width: 600px) {

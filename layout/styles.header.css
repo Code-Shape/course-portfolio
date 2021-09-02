@@ -84,10 +84,8 @@
   position: fixed;
   top: 40px;
   left: 30px;
-
   width: 26px;
   height: 26px;
-
   cursor: pointer;
   z-index: 101;
 }

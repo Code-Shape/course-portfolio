@@ -82,7 +82,6 @@ input[type="submit"]:hover {
   padding: 20px;
   color: #fff;
   font-weight: 700;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 5rem;
 }
 
@@ -98,14 +97,12 @@ input[type="submit"]:hover {
   margin-top: 6px;
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 640px) {
   .col-25,
   .col-75,

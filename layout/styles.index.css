@@ -34,38 +34,6 @@ body {
   position: relative;
 }
 
-@media only screen and (max-width: 32rem) {
-  .hero-buttons {
-    justify-content: center;
-  }
-
-  .hero-title {
-    text-align: center;
-  }
-
-  .hero-subtitle {
-    text-align: center;
-  }
-}
-
-@media only screen and (min-width: 48rem) {
-  .hero {
-    height: 75vh;
-  }
-
-  .hero-title {
-    font-size: 16vh;
-  }
-
-  .hero-subtitle {
-    top: -100px;
-  }
-
-  .button {
-    padding: 1rem 2rem;
-  }
-}
-
 .hero-buttons {
   display: flex;
   gap: 1rem;
@@ -106,6 +74,8 @@ body {
   padding: 1.875rem 2rem;
   max-width: 40rem;
   display: grid;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .about-container-image {
@@ -118,9 +88,9 @@ body {
 
 .about-description {
   text-align: center;
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .about-description p {
@@ -140,4 +110,36 @@ body {
 
 .about-caption-title {
   color: #6a7280;
+}
+
+@media only screen and (max-width: 32rem) {
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .hero-title {
+    text-align: center;
+  }
+
+  .hero-subtitle {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 48rem) {
+  .hero {
+    height: 75vh;
+  }
+
+  .hero-title {
+    font-size: 16vh;
+  }
+
+  .hero-subtitle {
+    top: -100px;
+  }
+
+  .button {
+    padding: 1rem 2rem;
+  }
 }

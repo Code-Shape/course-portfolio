@@ -129,6 +129,7 @@ body {
   .hero-buttons {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 30rem;
   }
 
   .hero-title {
@@ -140,6 +141,7 @@ body {
 @media only screen and (min-width: 1024px) {
   .hero-buttons {
     justify-content: center;
+    margin: 0 auto;
   }
 
   .hero-title {

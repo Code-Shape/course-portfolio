@@ -339,6 +339,13 @@ body {
   }
 }
 
+@media only screen and (min-width: 375px) {
+  .button-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 @media (min-width: 640px) {
   .title-section h1 {
     font-size: 3rem;
@@ -400,15 +407,5 @@ body {
   .quote-container {
     margin-top: 0px;
     max-width: none;
-  }
-}
-
-@media (min-width: 1280px) {
-}
-
-@media only screen and (min-width: 28rem) {
-  .button-container {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }

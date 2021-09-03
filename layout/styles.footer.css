@@ -13,7 +13,7 @@ footer {
 .footer-container {
   max-width: 81.25rem;
   margin: auto;
-  padding: 0 20px;
+  padding: 0 1.25rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,16 +21,16 @@ footer {
 }
 
 .logo {
-  width: 80px;
+  width: 5rem;
 }
 
 .social-media {
-  margin: 20px 0;
+  margin: 1.25rem 0;
 }
 
 .social-media a {
   color: #fff;
-  padding-right: 25px;
+  padding-right: 1.5rem;
   font-size: 22px;
   text-decoration: none;
   transition: 0.3s linear;
@@ -61,8 +61,8 @@ footer {
 }
 
 .border {
-  width: 100px;
-  height: 4px;
+  width: 6.25rem;
+  height: 0.25rem;
   background: #fff;
 }
 
@@ -71,12 +71,12 @@ footer {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 0.625rem;
 }
 
 .txtb {
   flex: 1;
-  padding: 18px 40px;
+  padding: 1.125rem 2.5rem;
   font-size: 16px;
   color: #000;
   background: #ddd;
@@ -88,7 +88,7 @@ footer {
 }
 
 .btn {
-  padding: 18px 40px;
+  padding: 1.125rem 2.5rem;
   font-size: 16px;
   color: #fff;
   background: #2c78ab;
@@ -125,7 +125,7 @@ footer {
 
   .right-col {
     width: 100%;
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
   }
 
   .left-col {
@@ -135,6 +135,6 @@ footer {
 
   .social-media a {
     padding-right: 0;
-    padding: 20px;
+    padding: 1.25rem;
   }
 }

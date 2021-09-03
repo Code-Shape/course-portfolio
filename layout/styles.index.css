@@ -10,28 +10,38 @@ body {
 }
 
 .hero {
-  display: grid;
   height: 50vh;
-  padding: 1rem;
-  box-sizing: border-box;
   color: white;
   background: url(/img/fractal_pillars.png) center center no-repeat;
   background-size: cover;
+  display: grid;
+  gap: 1.875rem;
+  align-items: center;
+}
+
+.hero-content {
+  display: grid;
+  gap: 1.875rem;
+}
+
+.hero-text {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 1.875rem;
 }
 
 .hero-title {
   font-size: 8vh;
   font-weight: bold;
   line-height: 0.9;
+  margin: 0;
 }
 
 .hero-subtitle {
-  margin: 0;
   font-size: 4vh;
   font-weight: bold;
   line-height: 0.9;
-  top: -60px;
-  position: relative;
+  margin: 0;
 }
 
 .hero-buttons {
@@ -39,6 +49,7 @@ body {
   grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: 0.5rem;
   text-align: center;
+  max-height: 2rem;
 }
 
 .button {
@@ -114,13 +125,26 @@ body {
   color: #6a7280;
 }
 
-@media only screen and (max-width: 32rem) {
+@media only screen and (min-width: 768px) {
+  .hero-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .hero-title {
+    text-align: center;
+    font-size: 12vh;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
   .hero-buttons {
     justify-content: center;
   }
 
   .hero-title {
     text-align: center;
+    font-size: 16vh;
   }
 
   .hero-subtitle {
@@ -128,24 +152,17 @@ body {
   }
 }
 
-@media only screen and (min-width: 28rem) {
-  .hero-buttons {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-@media only screen and (min-width: 48rem) {
+@media only screen and (min-width: 1280px) {
   .hero {
     height: 75vh;
   }
 
-  .hero-title {
-    font-size: 16vh;
+  .hero-content {
+    padding-top: 12rem;
   }
 
-  .hero-subtitle {
-    top: -100px;
+  .hero-title {
+    font-size: 16vh;
   }
 
   .button {
